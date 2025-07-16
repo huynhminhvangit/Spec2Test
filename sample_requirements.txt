@@ -1,0 +1,45 @@
+# Sample Requirements Document
+
+This is a sample requirements document for testing the AutoTestcase Generator.
+
+## User Management System
+
+### 1. User Registration
+- New users must be able to register with email, username, and password
+- Email addresses must be unique in the system
+- Passwords must be at least 8 characters long
+- System should send confirmation email after registration
+- Users must verify email before account activation
+
+### 2. User Authentication
+- Users must be able to log in with email and password
+- System should validate credentials against database
+- Invalid login attempts should display appropriate error messages
+- Users should be redirected to dashboard after successful login
+- System should implement session management
+- Users should be able to log out
+
+### 3. Password Management
+- Users should be able to reset forgotten passwords
+- Password reset should be done via email link
+- Reset links should expire after 24 hours
+- Users should be able to change password when logged in
+- Old password verification required for password change
+
+### 4. User Profile Management
+- Users should be able to view their profile information
+- Users should be able to edit profile details (name, bio, profile picture)
+- Profile changes should be saved to database
+- System should validate profile data before saving
+
+### 5. User Roles and Permissions
+- System should support different user roles (Admin, User, Guest)
+- Admins should be able to manage all users
+- Users should only access their own data
+- Guest users should have limited read-only access
+
+### 6. Search and Filter
+- Users should be able to search for other users by username
+- Search results should be paginated
+- Users should be able to filter search results
+- System should handle empty search results gracefully
