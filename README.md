@@ -162,7 +162,7 @@ User Login Feature:
 
 **Huynh Minh Vang**
 - GitHub: [@huynhminhvangit](https://github.com/huynhminhvangit)
-- Email: huynhminhvangit@gmail.com
+- Email: huynhminhvang.it@gmail.com
 
 ## �📝 License
 
